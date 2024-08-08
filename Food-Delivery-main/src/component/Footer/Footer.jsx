@@ -36,8 +36,8 @@ function Footer() {
                 <div className="w-full md:w-1/3">
                     <h2 className="mb-4 text-lg font-semibold">Get in Touch</h2>
                     <ul className="space-y-2 text-gray-400">
-                        <li>+91 8319277593</li>
-                        <li>vikassinghlodhi831@gmail.com</li>
+                        <li>+91 6263192306</li>
+                        <li>hariomkirar2580@gmail.com</li>
                     </ul>
                     <button className="px-4 py-2 mt-4 font-semibold text-white transition duration-300 bg-blue-500 rounded hover:bg-blue-600">
                         Contact Us
