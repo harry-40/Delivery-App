@@ -1,0 +1,29 @@
+* {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20rem; /* This is equivalent to w-80 in Tailwind CSS */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  * {
+    width: 80%; /* This is equivalent to md:w-4/5 in Tailwind CSS */
+  }
+}
+
+/* Large devices (desktops, 1024px and up) */
+@media (min-width: 1024px) {
+  * {
+    width: 75%; /* This is equivalent to lg:w-3/4 in Tailwind CSS */
+  }
+}
+
+/* Extra large devices (large desktops, 1280px and up) */
+@media (min-width: 1280px) {
+  * {
+    /* Define any additional styles for xl if needed */
+  }
+}
+.max-w-custom {
+  @apply max-w-[23vw] max-w-[330px];
+}
